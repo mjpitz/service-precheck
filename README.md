@@ -5,6 +5,8 @@ This implementation is largely based on Alibaba's blog post on how to solve serv
 
 [Alibaba Cloud's Blog Post](https://www.alibabacloud.com/blog/kubernetes-demystified-solving-service-dependencies_594110)
 
+In order to use this container to precheck services, your upstream systems should have liveness and readiness probes configured.
+
 ## Status
 
 [![Image Layers](https://images.microbadger.com/badges/image/mjpitz/service-precheck.svg)](https://microbadger.com/images/mjpitz/service-precheck)
@@ -86,9 +88,3 @@ Once you've tried it out, you can add it to your deployment configuration:
 ```
 
 More to come later.
-Eventually I want to be able to support other protocols.
-For example:
-
-* `<protocol>://<address>?sleep=<sleep>&retries=<retries>`
-* `dns://kubernetes?sleep=2&retries=5`
-* `http://service?sleep=2&retries=5`
