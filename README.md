@@ -1,4 +1,4 @@
-# k8s-service-precheck
+# service-precheck
 
 Simple init container that ensures upstream services are ready before starting the primary container of a pod.
 This implementation is largely based on Alibaba's blog post on how to solve service dependencies in Kubernetes.
