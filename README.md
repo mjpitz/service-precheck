@@ -9,6 +9,7 @@ In order to use this container to precheck services, your upstream systems shoul
 
 ## Status
 
+![GitHub](https://img.shields.io/github/license/mjpitz/service-precheck.svg)
 [![Image Layers](https://images.microbadger.com/badges/image/mjpitz/service-precheck.svg)](https://microbadger.com/images/mjpitz/service-precheck)
 [![Image Version](https://images.microbadger.com/badges/version/mjpitz/service-precheck.svg)](https://microbadger.com/images/mjpitz/service-precheck)
 
