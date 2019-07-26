@@ -1,5 +1,5 @@
 {
   "name": "@mjpitz/service-precheck",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Init container used to quickly check your service dependencies"
 }
