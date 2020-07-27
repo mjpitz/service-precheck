@@ -1,5 +1,5 @@
 # service-precheck
-![Google Analytics](https://www.google-analytics.com/collect?v=1&tid=UA-172921913-1&cid=555&t=event&ec=repo&ea=open&dp=mjpitz%2Fservice-precheck&dt=mjpitz%2Fservice-precheck)
+![Google Analytics](https://www.google-analytics.com/collect?v=1&tid=UA-172921913-1&cid=555&t=event&ec=repo&ea=open&dp=service-precheck&dt=service-precheck)
 
 Simple init container that ensures upstream services are ready before starting the primary container of a pod.
 This implementation is largely based on Alibaba's blog post on how to solve service dependencies in Kubernetes.
